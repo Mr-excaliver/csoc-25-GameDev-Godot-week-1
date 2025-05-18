@@ -28,7 +28,7 @@ Welcome to Week 1 of your Godot Game Dev journey!
 
 Click "+create" option and name the project YourName_Rollno, choose direectory to save and hit create
 
-![create]([images/"Screenshot 2025-05-19 001826.png")
+![create](images/"Screenshot 2025-05-19 001826.png")
 
 #create your level scene
 create a Node2D as main scene and name it YourName_Rollno, then save the scene by clicking CTRL+S as YourName_Rollno.tscn
