@@ -66,9 +66,13 @@ You’ll build a simple scene where:
 
 - A player character can move around using arrow keys or WASD.
 - Create timemap for level and develop any map you like, to know more about TileMap refer to ![this article](https://docs.godotengine.org/en/latest/tutorials/2d/using_tilemaps.html) or ![this video](https://www.youtube.com/watch?v=sbv35boXqac)
+- create a script for player naming it `Player_rollnumber.gd`
+- ready func executes one time at the start of the scene, process function executes every frame.
+- write basic player movement code with jump implementaion(allow double jump and not more than that)
 - The movement should feel smooth and responsive.
 
 Try making it funny, stylish, or totally weird — this is your playground!
+
 
 ---
 
