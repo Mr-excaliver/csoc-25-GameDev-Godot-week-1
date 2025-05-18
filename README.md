@@ -41,7 +41,7 @@ This week, we’ll learn how to create a Godot project, build your first scene, 
 Now let’s make your game world!
 
 1. Click the **+** icon in the scene panel and add a **Node2D** as the root node.
-2. Rename it to something like `YourName_RollNo` (you can right-click to rename).
+2. Rename it to something like `YourName_RollNo` (you can right-click to rename or use shortcut F2).
 3. Press `Ctrl + S` to save the scene.
 4. Save it with the name: `YourName_RollNo.tscn`
 
