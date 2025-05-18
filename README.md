@@ -25,13 +25,13 @@ Welcome to Week 1 of your Godot Game Dev journey!
 
 ---
 
-## Screenshots
+## create project
 
-### Godot Editor UI with Player Setup
-![Godot UI with Player Setup](images/godot_ui_player_scene.png)
+Click +create option and name the project YourName_Rollno, choose direectory to save and hit create
+https://github.com/DrajSkr/csoc-25-GameDev-Godot-week-1/blob/90d6ed1b004435c87546af232d0829911e9c7592/Screenshot%202025-05-19%20001826.png
 
-### Example: Player Movement in Action
-![Player Movement Screenshot](images/player_movement.png)
+#create your level scene
+create a Node2D as main scene and name it YourName_Rollno, then save the scene by clicking CTRL+S as YourName_Rollno.tscn
 
 ---
 
