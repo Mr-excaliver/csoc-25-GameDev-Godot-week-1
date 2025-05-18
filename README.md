@@ -1,4 +1,4 @@
-# csoc-25-GameDev-Godot-week-1
+# Week 1: Getting Started with Godot + 2D Movement
 
 Welcome to Week 1 of your Godot Game Dev journey!
 
@@ -16,11 +16,22 @@ Welcome to Week 1 of your Godot Game Dev journey!
 ## How to Submit
 
 1. *Fork this repository* to your GitHub account.
-2. Open the Your Games"/ folder.
+2. Open the week1/ folder.
 3. Create your own scene named:  
    **YourName_YourRollNo.tscn**  
+   Example: Aarav_23CS3001.tscn
 4. Do the tasks below.
 5. *Push your work* and open a *Pull Request*.
+
+---
+
+## Screenshots
+
+### Godot Editor UI with Player Setup
+![Godot UI with Player Setup](images/godot_ui_player_scene.png)
+
+### Example: Player Movement in Action
+![Player Movement Screenshot](images/player_movement.png)
 
 ---
 
@@ -30,33 +41,39 @@ Build a simple project where:
 - A character sprite moves around using arrow keys or WASD.
 - Use CharacterBody2D, Sprite2D, and CollisionShape2D.
 - Add a background or environment.
-- Feel free to make it funny, cute, or weird — it's your sandbox!
+
+Feel free to make it funny, cute, or weird — it's your sandbox!
 
 ---
 
-## Mini Assignments
+## Tasks
 
-Each of these can be added to your main task or done in a separate mini scene.
+Each task builds on what you've learned and encourages creativity. You can do these in the same scene or create small new ones.
 
-### 1. *Bouncy Ball Toy*
-- Create a ball that moves and bounces inside a box.
-- Add walls using StaticBody2D + CollisionShape2D.
-- Bonus: Add gravity and make it bounce off the floor.
+---
 
-### 2. *Follow the Mouse*
-- Make a sprite or object follow the mouse smoothly.
-- Use Vector2.direction_to() or linear interpolation (lerp).
-- Bonus: Rotate the sprite to face the cursor.
 
-### 3. *Make a Simple Teleport Pad*
-- Create two areas (Area2D with CollisionShapes).
-- When the player enters one, teleport them to the other.
-- Bonus: Add a teleport sound or visual flash.
+### 1. *Teleport Pads*
+- Create two areas — when player enters one, teleport to the other.
+- Use Area2D and signals.
 
-### 4. *Sprite Switcher*
-- Add multiple character sprites (or colors).
-- Pressing a key (e.g. spacebar) swaps between them.
-- Try using visible toggle or SpriteFrames.
+![Teleport Pad Screenshot](images/teleport_pad.png)
+
+---
+
+### 4. *Sprite Color Switcher*
+- Press C key to change your character’s appearance (change color(use modulate property) or switch sprite).
+
+![Sprite Switcher Screenshot](images/sprite_switcher.png)
+
+---
+
+## Resources for Learning
+
+### *Official Godot Documentation*
+- [Your First 2D Game Tutorial (Official)](https://docs.godotengine.org/en/latest/getting_started/first_2d_game/)
+- [CharacterBody2D Docs](https://docs.godotengine.org/en/latest/classes/class_characterbody2d.html)
+- [GDScript Basics](https://docs.godotengine.org/en/latest/tutorials/scripting/gdscript/gdscript_basics.html)
 
 ---
 
@@ -68,6 +85,6 @@ Each of these can be added to your main task or done in a separate mini scene.
 
 ---
 
-When you're done, submit your Pull Request and move on to Week 2!
+Once you're done with your scene, submit your *Pull Request*, and get ready for Week 2!
 
 Happy dev’ing!
