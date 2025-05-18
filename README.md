@@ -16,10 +16,9 @@ Welcome to Week 1 of your Godot Game Dev journey!
 ## How to Submit
 
 1. *Fork this repository* to your GitHub account.
-2. Open the week1/ folder.
+2. Open the "Your Games"/ folder.
 3. Create your own scene named:  
    **YourName_YourRollNo.tscn**  
-   Example: Aarav_23CS3001.tscn
 4. Do the tasks below.
 5. *Push your work* and open a *Pull Request*.
 
@@ -27,8 +26,8 @@ Welcome to Week 1 of your Godot Game Dev journey!
 
 ## create project
 
-Click +create option and name the project YourName_Rollno, choose direectory to save and hit create
-https://github.com/DrajSkr/csoc-25-GameDev-Godot-week-1/blob/90d6ed1b004435c87546af232d0829911e9c7592/Screenshot%202025-05-19%20001826.png
+Click "+create" option and name the project YourName_Rollno, choose direectory to save and hit create
+![create]([images/Screenshot 2025-05-19 001826.png)
 
 #create your level scene
 create a Node2D as main scene and name it YourName_Rollno, then save the scene by clicking CTRL+S as YourName_Rollno.tscn
@@ -57,14 +56,10 @@ Each task builds on what you've learned and encourages creativity. You can do th
 - Create two areas — when player enters one, teleport to the other.
 - Use Area2D and signals.
 
-![Teleport Pad Screenshot](images/teleport_pad.png)
-
 ---
 
 ### 4. *Sprite Color Switcher*
 - Press C key to change your character’s appearance (change color(use modulate property) or switch sprite).
-
-![Sprite Switcher Screenshot](images/sprite_switcher.png)
 
 ---
 
