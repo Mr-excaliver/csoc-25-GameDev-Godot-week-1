@@ -65,7 +65,7 @@ This is the basic structure for a 2D player in Godot!
 You’ll build a simple scene where:
 
 - A player character can move around using arrow keys or WASD.
-- Create timemap for level and develop any map you like, to know more about TileMap refer to [this article](https://docs.godotengine.org/en/latest/tutorials/2d/using_tilemaps.html) or [this video](https://www.youtube.com/watch?v=sbv35boXqac)
+- Create a tilemap for design a small new level using tilemap, to know more about TileMap refer to [this article](https://docs.godotengine.org/en/latest/tutorials/2d/using_tilemaps.html) or [this video](https://www.youtube.com/watch?v=sbv35boXqac)
 - create a script for player naming it `Player_rollnumber.gd`
 - ready function executes one time at the start of the scene, process function executes every frame.
 - write basic player movement code with jump implementaion(allow double jump and not more than that)
