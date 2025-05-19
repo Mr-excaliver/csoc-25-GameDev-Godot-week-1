@@ -18,47 +18,13 @@ This week, we’ll learn how to create a Godot project, build your first scene, 
 ## 📝 How to Submit
 
 1. Fork this repository to your GitHub account.
-2. Go to the `Your Games/` folder.
-3. Create your scene and name it like this: `YourName_YourRollNo.tscn`
-4. Do the tasks given below.
+2. Creat a zip for the game folder
+3. Name the zip file like this: `YourName_RollNo`
+4. Go to the `Your Games/` folder. Add your zip file to this folder
 5. Push your changes and open a Pull Request.
 
 ---
 
-## 🎮 Creating Your Godot Project
-
-1. Open Godot and click on the **+ New Project** option.
-2. Name your project like this: `YourName_RollNo`
-3. Choose a folder to save your project.
-4. Hit **Create & Edit** to launch the editor.
-
-![Create project](https://github.com/user-attachments/assets/853a09f2-55e0-4ba9-b007-b5379e72e055)
-
----
-
-## 🧱 Creating Your Main Scene
-
-Now let’s make your game world!
-
-1. Click the **+** icon in the scene panel and add a **Node2D** as the root node.
-2. Rename it to something like `YourName_RollNo` (you can right-click to rename or use shortcut F2).
-3. Press `Ctrl + S` to save the scene.
-4. Save it with the name: `YourName_RollNo.tscn`
-
-![Create scene](https://github.com/user-attachments/assets/457f1e03-1a12-430c-af34-08c7e6471f6a)
-
----
-
-## 🧍‍♂️ Adding Your Player Character
-
-1. Add a **CharacterBody2D** node to your scene and name it `Player_rollnumber`.
-2. Add a **Sprite2D**(you can use the default godot icon for this) and **CollisionShape2D** as children of the Player.
-3. Load a simple sprite image to your Sprite2D (you can use any character image you like or godot logo is also fine).
-4. Set up the CollisionShape2D (use a rectangle shape or capsule shape and resize it around the sprite).
-
-This is the basic structure for a 2D player in Godot!
-
----
 
 ## 🎯 Your Main Goal
 
@@ -82,15 +48,15 @@ Try making it funny, stylish, or totally weird — this is your playground!
 
 - Add two **Area2D** nodes on the map (some sprite attached to it or your choice).
 - When the player enters one, they should be instantly teleported to the second.
-- This will help you learn signals and position changing!
+
 
 ---
 
 ### 2. 🎨 Sprite Color Changer
 
 - Make it so that when you press the **C** key, your player changes color.
-- Use the `modulate` property of the sprite to do this.
-- Bonus: Add a few different colors(more than two) that change every time you press C,(change should be in cyclic order)
+- Add a few different colors(more than two) that change every time you press C,(change should be in cyclic order)
+  
 
 ---
 
